@@ -1,0 +1,21 @@
+# Dependencies & logs
+node_modules/
+*.log
+npm-debug.log*
+
+# Secrets — never commit real keys, tokens or client data
+.env
+.env.*
+*credentials*.json
+client-*/
+exports/
+
+# Bundles
+*.zip
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+~$*.xlsx
